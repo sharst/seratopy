@@ -1,9 +1,9 @@
 #!/usr/bin/python
 import os
 
-from base_data import BASE_DATA
-from decoding import decode
-from util import split_path
+from .base_data import BASE_DATA
+from .decoding import decode
+from .util import split_path
 
 
 class Crate(object):
